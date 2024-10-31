@@ -1,0 +1,58 @@
+/* index.css o App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@300&display=swap');
+
+
+
+/*primera parte */
+.header {
+    background-color: rgb(67, 67, 246);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-container{
+    font-family: 'Roboto', sans-serif; ;
+    display: block;
+    background-color: lightblue;
+    width: 100%;
+    display: grid;
+    gap: 30px;
+    padding-top: 35px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+
+.iniciarsecion{
+    font-size: 50px;
+}
+
+
+.formato{
+    gap: 30px;
+    padding: 10px;
+}
+
+.boton{
+
+    padding : 20px;
+    background-color: rgb(67, 67, 246);
+    border-radius: 5px;
+    margin-top: 15px;
+}
